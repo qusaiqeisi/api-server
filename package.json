@@ -1,0 +1,33 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --verbose",
+    "NODE_ENV":"test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qusaiqeisi/api-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qusaiqeisi/api-server/issues"
+  },
+  "homepage": "https://github.com/qusaiqeisi/api-server#readme",
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "supertest": "^6.1.5"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "sequelize": "^6.6.5",
+    "sequelize-cli": "^6.2.0",
+    "sqlite3": "^5.0.2"
+  }
+}
